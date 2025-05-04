@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+	
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+	
+	<Appenders>
+		<Console name="ConsoleAppender" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<File name="FileAppender" fileName="${basePath}/automation-%d{yyyy-MM-dd}.log"> <!-- fileName attribute needs to have the basePath(logs folder path) -->
+			immediateFlush="false" append="true">
+			<PatternLayout
+				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="DEBUG"> <!-- ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF -->
+			<!-- <AppenderRef ref="ConsoleAppender" /> --> <!-- Can turn this on when logs in the console are required. -->
+			<AppenderRef ref="FileAppender" />
+		</Root>
+	</Loggers>
+</Configuration>
