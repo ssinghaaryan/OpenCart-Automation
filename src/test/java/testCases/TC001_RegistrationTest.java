@@ -20,9 +20,9 @@ public class TC001_RegistrationTest extends BaseTest {
 	@Test(groups={"Sanity", "Regression"})
 	public void verify_registration() {
 		
-		HomePage homepage = new HomePage(driver);
-		
 		logger.info("*** Started TC001_RegistrationTest ***");
+		HomePage homepage = new HomePage(driver);
+
 		logger.info("Clicking on My Account & Register buttons");
 		homepage.myAccountBtn().click();
 		homepage.registerBtn().click();
@@ -42,10 +42,9 @@ public class TC001_RegistrationTest extends BaseTest {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.urlContains("account/success"));
 		
-		logger.info("Validation Confirmation Text");
-		
 		String expectedConfirmationTxt = regpage.getConfirmationTxt().getText();
 		String actualConfirmationTxt = "Your Account Has Been Created!";
+		logger.info("Account created successfully!");
 		
 		if(expectedConfirmationTxt.equals(actualConfirmationTxt)) {
 			Assert.assertTrue(true);

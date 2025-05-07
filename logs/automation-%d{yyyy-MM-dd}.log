@@ -1,0 +1,9 @@
+2025-05-07 22:57:49.647 [main] INFO  testCases.TC004_AddToCartTest - *** Staring TC0004_AddToCartTest ***
+2025-05-07 22:57:49.650 [main] INFO  testCases.TC004_AddToCartTest - Searching for Product
+2025-05-07 22:58:01.708 [main] INFO  testCases.TC004_AddToCartTest - *** Staring TC0004_AddToCartTest ***
+2025-05-07 22:58:01.713 [main] INFO  testCases.TC004_AddToCartTest - Searching for Product
+2025-05-07 22:58:09.132 [main] INFO  testCases.TC004_AddToCartTest - Product added to cart
+2025-05-07 22:58:09.520 [main] INFO  testCases.TC004_AddToCartTest - Expected Headers present in cart
+2025-05-07 22:58:09.596 [main] INFO  testCases.TC004_AddToCartTest - Validating Product Name in cart.
+2025-05-07 22:58:09.612 [main] INFO  testCases.TC004_AddToCartTest - Validating Product Price in cart.
+2025-05-07 22:58:09.612 [main] INFO  testCases.TC004_AddToCartTest - *** Finished TC004_AddToCartTest ***

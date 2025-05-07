@@ -20,7 +20,7 @@ public class BaseTest {
 	public WebDriver driver;
 	public Logger logger;
 	
-	@BeforeClass(groups={"Sanity", "Regression"})
+	@BeforeClass(groups={"Sanity", "Regression", "Demo"})
 	public void setup() throws IOException {
 		
 		Properties prop = new Properties();
@@ -38,7 +38,7 @@ public class BaseTest {
 		driver.get(prop.getProperty("app_url"));
 	}
 	
-	@AfterClass(groups={"Sanity", "Regression"})
+	@AfterClass()
 	public void tearDown() {
 		driver.quit();
 	}
