@@ -8,12 +8,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC004_AddToCartTest">
+      <class name="testCases.TC005_AddToWishlist">
         <methods>
+          <include name="verify_addToWishlist"/>
           <include name="setup"/>
-          <include name="verify_addToCart"/>
         </methods>
-      </class> <!-- testCases.TC004_AddToCartTest -->
+      </class> <!-- testCases.TC005_AddToWishlist -->
     </classes>
   </test> <!-- MyTest(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -18,7 +18,7 @@ import utilities.WaitHelper;
 
 public class TC004_AddToCartTest extends BaseTest {
 	
-	@Test(groups={"Demo"})
+	@Test(groups={"Regression"})
 	public void verify_addToCart() throws InterruptedException {
 		
 		logger.info("*** Staring TC0004_AddToCartTest ***");

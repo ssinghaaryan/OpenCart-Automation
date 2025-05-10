@@ -22,8 +22,8 @@ public class LoginPage extends BasePage {
 		return driver.findElement(By.xpath("//input[@value='Login']"));
 	}
 	
-	public WebElement getConfirmationText() {
-		return driver.findElement(By.xpath("//div[@id='content']/h2"));
+	public By getConfirmationText() {
+		return By.xpath("//div[@id='content']/h2");
 	}
 
 }

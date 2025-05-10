@@ -11,29 +11,24 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import utilities.LoginHelper;
+import utilities.WaitHelper;
 
 public class TC002_LoginTest extends BaseTest {
 	
-	@Test(groups={"Sanity", "Regression"})
+	@Test(groups={"Regression"})
 	public void verify_login() {
 		
+		WaitHelper waitHelper = new WaitHelper(driver);
+		
 		logger.info("*** Started TC002_LoginTest ***");
-		HomePage homepage = new HomePage(driver);
+		LoginHelper loginHelper = new LoginHelper(driver);
 		
-		logger.info("Clicking on My Account & Login buttons");
-		homepage.myAccountBtn().click();
-		homepage.loginBtn().click();
+		LoginPage loginPage = new LoginPage(driver);
 		
-		LoginPage loginpage = new LoginPage(driver);
-		logger.info("Entering user details");
-		loginpage.emailInput().sendKeys("aaryan.ssingh101@gmail.com");
-		loginpage.pwdInput().sendKeys("qautomation");
-		loginpage.loginBtn().click();
+		waitHelper.waitForUrlToContain("account/account", 5);
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-		wait.until(ExpectedConditions.urlContains("account/account"));
-		
-		String actualTxt = loginpage.getConfirmationText().getText();
+		String actualTxt = driver.findElement(loginPage.getConfirmationText()).getText();
 		Assert.assertEquals(actualTxt, "My Account");
 		logger.info("TC Passed/Failed");
 		logger.info("*** Finished TC002_LoginTest ***");

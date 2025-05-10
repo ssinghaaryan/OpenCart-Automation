@@ -17,7 +17,7 @@ import pageObjects.RegistrationPage;
 
 public class TC001_RegistrationTest extends BaseTest {
 	
-	@Test(groups={"Sanity", "Regression"})
+	@Test(groups={"Regression"})
 	public void verify_registration() {
 		
 		logger.info("*** Started TC001_RegistrationTest ***");

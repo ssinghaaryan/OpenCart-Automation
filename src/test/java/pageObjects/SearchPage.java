@@ -28,14 +28,16 @@ public class SearchPage extends BasePage {
 
 	}
 	
+	public By productList() {
+		return By.xpath("//button[@data-original-title='Add to Wish List']");
+	}
+	
 	public By productName() {
 		return By.xpath("//div[@class='caption']/h4/a");
-//		return driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[2]/div[1]/h4/a"));
-//		return driver.findElement(By.cssSelector("div.caption h4 a"));
 	}
 	
 	public WebElement productPrice() {
-		return driver.findElement(By.xpath("//p[@class='price']")); //span[@class='price-tax']/preceding-sibling::text()
+		return driver.findElement(By.xpath("//p[@class='price']")); 
 	}
 	
 //	public WebElement addToCartBtn() {
@@ -64,6 +66,10 @@ public class SearchPage extends BasePage {
 	
 	public WebElement viewCartBtn() {
 		return driver.findElement(By.xpath("//p[@class='text-right']/a[1]"));
+	}
+	
+	public By wishlistBtn() {
+		return By.xpath("//a[@id='wishlist-total']");
 	}
 	
 }
