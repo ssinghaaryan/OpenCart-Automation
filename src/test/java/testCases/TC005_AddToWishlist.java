@@ -16,7 +16,7 @@ import utilities.LoginHelper;
 
 public class TC005_AddToWishlist extends BaseTest {
 	
-	@Test(groups={"Demo"})
+	@Test(groups={"Regression"})
 	public void verify_addToWishlist() throws InterruptedException {
 		
 		WaitHelper waitHelper = new WaitHelper(driver);

@@ -74,3 +74,61 @@
 2025-05-10 14:31:41.867 [main] INFO  testCases.TC005_AddToWishlist - Wishlisted product present
 2025-05-10 14:31:47.458 [main] INFO  testCases.TC005_AddToWishlist - Product removed from Wishlist
 2025-05-10 14:31:47.459 [main] INFO  testCases.TC005_AddToWishlist - *** Finished TC005_AddToWishlist ***
+2025-05-11 12:53:18.739 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 12:56:22.402 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 12:57:00.866 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 12:57:31.213 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 12:57:32.421 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 12:57:33.738 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 13:23:33.668 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 13:23:34.953 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 13:23:36.268 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 14:59:12.980 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 14:59:14.146 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 14:59:15.299 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:03:55.273 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:03:56.536 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:03:57.751 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:03:58.170 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 15:06:20.860 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:06:22.038 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:06:23.146 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:06:23.553 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 15:07:14.426 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:07:15.708 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:07:16.857 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:07:17.250 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 15:28:22.863 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:28:23.946 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:28:25.077 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:28:25.457 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 15:35:53.187 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:35:55.300 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:35:56.683 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:35:57.169 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 15:36:43.071 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:36:46.629 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:36:48.034 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 15:36:48.981 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 16:08:55.543 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 16:08:56.752 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 16:08:57.948 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 16:08:58.407 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 16:08:58.485 [main] INFO  testCases.TC006_ProductComparison - Add to Cart & Remove buttons present for product.
+2025-05-11 16:10:07.577 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 16:10:08.880 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 16:10:10.059 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 16:10:10.454 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 16:10:10.657 [main] INFO  testCases.TC006_ProductComparison - Add to Cart & Remove buttons present for product.
+2025-05-11 19:17:37.976 [main] INFO  testCases.TC006_ProductComparison - --------------------------
+2025-05-11 19:17:37.992 [main] INFO  testCases.TC006_ProductComparison - *** Stated TC006_ProductComparison ***
+2025-05-11 19:17:37.998 [main] INFO  testCases.TC006_ProductComparison - Searching Products
+2025-05-11 19:17:39.374 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 19:17:39.425 [main] INFO  testCases.TC006_ProductComparison - Searching Products
+2025-05-11 19:17:40.583 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 19:17:40.632 [main] INFO  testCases.TC006_ProductComparison - Searching Products
+2025-05-11 19:17:41.732 [main] INFO  testCases.TC006_ProductComparison - Product added to comparison screen
+2025-05-11 19:17:42.135 [main] INFO  testCases.TC006_ProductComparison - Production Comparison page opened
+2025-05-11 19:17:42.158 [main] INFO  testCases.TC006_ProductComparison - Product Comparison screen opened.
+2025-05-11 19:17:42.373 [main] INFO  testCases.TC006_ProductComparison - Add to Cart & Remove buttons present for product.
+2025-05-11 19:17:42.373 [main] INFO  testCases.TC006_ProductComparison - *** Finished TC006_ProductComparison ***

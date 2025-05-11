@@ -56,6 +56,10 @@ public class SearchPage extends BasePage {
 		return By.xpath("//div[contains(@class, 'alert-success')]");
 	}
 	
+	public By productCompLink() {
+		return By.xpath("//div[contains(@class, 'alert-success')]/a[2]");
+	}
+	
 	public WebElement cartBtn() {
 		return driver.findElement(By.xpath("//div[@id='cart']/button"));
 	}
@@ -70,6 +74,14 @@ public class SearchPage extends BasePage {
 	
 	public By wishlistBtn() {
 		return By.xpath("//a[@id='wishlist-total']");
+	}
+	
+	public By compareBtn() {
+		return By.xpath("//button[@data-original-title='Compare this Product']");
+	}
+	
+	public By searchInput() {
+		return By.xpath("//input[@placeholder='Search']");
 	}
 	
 }

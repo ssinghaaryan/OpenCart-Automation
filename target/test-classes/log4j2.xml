@@ -10,16 +10,28 @@
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 		</Console>
-		<File name="FileAppender" fileName="${basePath}/automation-%d{yyyy-MM-dd}.log"> <!-- fileName attribute needs to have the basePath(logs folder path) -->
+		
+		<!-- fileName attribute needs to have the basePath(logs folder path) -->
+		<!--
+		<File name="FileAppender" fileName="${basePath}/automation-%d{yyyy-MM-dd}.log"> 
 			immediateFlush="false" append="true">
 			<PatternLayout
 				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 		</File>
+		-->
+		
+		<RollingFile name="RollingFileAppender" fileName="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingFile>
+		
 	</Appenders>
 	<Loggers>
 		<Root level="DEBUG"> <!-- ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF -->
 			<!-- <AppenderRef ref="ConsoleAppender" /> --> <!-- Can turn this on when logs in the console are required. -->
-			<AppenderRef ref="FileAppender" />
+			<AppenderRef ref="RollingFileAppender" />
 		</Root>
 	</Loggers>
 </Configuration>

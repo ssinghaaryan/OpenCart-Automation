@@ -19,6 +19,7 @@
        <class name="testCases.TC003_SearchTest" />
        <class name="testCases.TC004_AddToCartTest" />
        <class name="testCases.TC005_AddToWishlist" />
+       <class name="testCases.TC006_ProductComparison" />
     </classes>
     
   </test>
