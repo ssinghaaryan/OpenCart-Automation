@@ -1,0 +1,35 @@
+2025-05-13 21:00:50.203 [main] INFO  testCases.TC007_EditAccountInfo - ------------------------------
+2025-05-13 21:00:50.245 [main] INFO  testCases.TC007_EditAccountInfo - *** Started TC007_EditAccountInfo
+2025-05-13 21:00:50.246 [main] INFO  testCases.TC007_EditAccountInfo - Logging in user
+2025-05-13 21:00:51.526 [main] INFO  testCases.TC007_EditAccountInfo - User logged in
+2025-05-13 21:36:13.343 [main] INFO  testCases.TC007_EditAccountInfo - ------------------------------
+2025-05-13 21:36:13.352 [main] INFO  testCases.TC007_EditAccountInfo - *** Started TC007_EditAccountInfo
+2025-05-13 21:36:13.353 [main] INFO  testCases.TC007_EditAccountInfo - Logging in user
+2025-05-13 21:36:14.786 [main] INFO  testCases.TC007_EditAccountInfo - User logged in
+2025-05-13 21:36:15.313 [main] INFO  testCases.TC007_EditAccountInfo - Edit Account Information page opended.
+2025-05-13 21:36:15.314 [main] INFO  testCases.TC007_EditAccountInfo - Entering user details
+2025-05-13 21:38:41.902 [main] INFO  testCases.TC007_EditAccountInfo - ------------------------------
+2025-05-13 21:38:41.920 [main] INFO  testCases.TC007_EditAccountInfo - *** Started TC007_EditAccountInfo
+2025-05-13 21:38:41.921 [main] INFO  testCases.TC007_EditAccountInfo - Logging in user
+2025-05-13 21:38:43.249 [main] INFO  testCases.TC007_EditAccountInfo - User logged in
+2025-05-13 21:38:43.660 [main] INFO  testCases.TC007_EditAccountInfo - Edit Account Information page opended.
+2025-05-13 21:38:43.662 [main] INFO  testCases.TC007_EditAccountInfo - Entering user details
+2025-05-13 21:41:50.365 [main] INFO  testCases.TC007_EditAccountInfo - ------------------------------
+2025-05-13 21:41:50.373 [main] INFO  testCases.TC007_EditAccountInfo - *** Started TC007_EditAccountInfo
+2025-05-13 21:41:50.374 [main] INFO  testCases.TC007_EditAccountInfo - Logging in user
+2025-05-13 21:41:51.615 [main] INFO  testCases.TC007_EditAccountInfo - User logged in
+2025-05-13 21:41:52.097 [main] INFO  testCases.TC007_EditAccountInfo - Edit Account Information page opened.
+2025-05-13 21:41:52.098 [main] INFO  testCases.TC007_EditAccountInfo - Entering user details
+2025-05-13 21:42:28.827 [main] INFO  testCases.TC007_EditAccountInfo - ------------------------------
+2025-05-13 21:42:28.852 [main] INFO  testCases.TC007_EditAccountInfo - *** Started TC007_EditAccountInfo
+2025-05-13 21:42:28.853 [main] INFO  testCases.TC007_EditAccountInfo - Logging in user
+2025-05-13 21:42:30.175 [main] INFO  testCases.TC007_EditAccountInfo - User logged in
+2025-05-13 21:42:30.598 [main] INFO  testCases.TC007_EditAccountInfo - Edit Account Information page opened.
+2025-05-13 21:42:30.598 [main] INFO  testCases.TC007_EditAccountInfo - Entering user details
+2025-05-13 21:44:17.168 [main] INFO  testCases.TC007_EditAccountInfo - ------------------------------
+2025-05-13 21:44:17.186 [main] INFO  testCases.TC007_EditAccountInfo - *** Started TC007_EditAccountInfo
+2025-05-13 21:44:17.188 [main] INFO  testCases.TC007_EditAccountInfo - Logging in user
+2025-05-13 21:44:18.494 [main] INFO  testCases.TC007_EditAccountInfo - User logged in
+2025-05-13 21:44:19.258 [main] INFO  testCases.TC007_EditAccountInfo - Edit Account Information page opened.
+2025-05-13 21:44:19.259 [main] INFO  testCases.TC007_EditAccountInfo - Entering user details
+2025-05-13 21:44:19.908 [main] INFO  testCases.TC007_EditAccountInfo - User Info updated.

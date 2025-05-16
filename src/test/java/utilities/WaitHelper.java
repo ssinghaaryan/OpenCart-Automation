@@ -26,4 +26,11 @@ public class WaitHelper extends BaseTest {
 		return wait.until(ExpectedConditions.urlContains(urlPart));
 	}
 	
+	public void waitAndInput(By locator, String text) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		element.clear();
+		element.sendKeys(text);
+	}
+	
 }

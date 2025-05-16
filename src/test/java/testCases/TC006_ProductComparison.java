@@ -19,7 +19,7 @@ import utilities.WaitHelper;
 
 public class TC006_ProductComparison extends BaseTest {
 	
-	@Test(groups={"Demo"})
+	@Test(groups={"Regression"})
 	public void verify_productComparison() throws InterruptedException {
 		
 		logger.info("--------------------------");
@@ -36,7 +36,7 @@ public class TC006_ProductComparison extends BaseTest {
 			searchPage.scrollToCart();
 			waitHelper.waitForElementVisible(searchPage.compareBtn(), 5);
 			
-			//Pick Product Name, Price & add it to Map.
+			//Pick Product Name, (Price) & add it to Map.
 			expectedProducts.put("Product" + i, driver.findElement(searchPage.productName()).getText());
 			//System.out.println(expectedProducts.get("Product" + i)); // Printing products found on search & in Map.
 			

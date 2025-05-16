@@ -1,0 +1,7 @@
+2025-05-15 23:02:41.732 [main] INFO  testCases.TC007_EditAccountInfo - ------------------------------
+2025-05-15 23:02:41.787 [main] INFO  testCases.TC007_EditAccountInfo - *** Started TC007_EditAccountInfo
+2025-05-15 23:02:41.788 [main] INFO  testCases.TC007_EditAccountInfo - Logging in user
+2025-05-15 23:02:43.245 [main] INFO  testCases.TC007_EditAccountInfo - User logged in
+2025-05-15 23:02:43.709 [main] INFO  testCases.TC007_EditAccountInfo - Edit Account Information page opened.
+2025-05-15 23:02:43.710 [main] INFO  testCases.TC007_EditAccountInfo - Entering user details
+2025-05-15 23:02:44.451 [main] INFO  testCases.TC007_EditAccountInfo - User Info updated.

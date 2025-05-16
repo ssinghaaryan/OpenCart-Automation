@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class LoginPage extends BasePage {
 
 	public LoginPage(WebDriver driver) {
-		super(driver); // This sends the driver to the parent(BasePage) class to initate the PageFactory.
+		super(driver); // This sends the driver to the parent(BasePage) class to initiate the PageFactory.
 	}
 	
 	public WebElement emailInput() {
