@@ -36,8 +36,8 @@ public class SearchPage extends BasePage {
 		return By.xpath("//div[@class='caption']/h4/a");
 	}
 	
-	public WebElement productPrice() {
-		return driver.findElement(By.xpath("//p[@class='price']")); 
+	public By productPrice() {
+		return By.xpath("//p[@class='price']"); 
 	}
 	
 //	public WebElement addToCartBtn() {

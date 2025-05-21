@@ -21,6 +21,9 @@
        <class name="testCases.TC005_AddToWishlist" />
        <class name="testCases.TC006_ProductComparison" />
        <class name="testCases.TC007_EditAccountInfo" />
+       <!-- <class name="testCases.Practise" /> -->
+       <class name="testCases.TC008_ProductPage" />
+       
     </classes>
     
   </test>

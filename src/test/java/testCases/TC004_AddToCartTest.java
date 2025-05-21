@@ -34,7 +34,7 @@ public class TC004_AddToCartTest extends BaseTest {
 		waitHelper.waitForElementVisible(searchPage.addToCartBtn(), 5);
 		driver.findElement(searchPage.addToCartBtn()).click();
 		String productName = driver.findElement(searchPage.productName()).getText();
-		String productPrices[] = searchPage.productPrice().getText().split("\n");
+		String productPrices[] = driver.findElement(searchPage.productPrice()).getText().split("\n");
 		String productPrice = productPrices[0];
 		
 		waitHelper.waitForElementVisible(searchPage.successMsg(), 5);
@@ -53,7 +53,7 @@ public class TC004_AddToCartTest extends BaseTest {
 		String arr1[] = searchPage.cartTotal().getText().split(" - ");
 		String cartTotal = arr1[arr1.length - 1];
 		
-		String arr2[] = searchPage.productPrice().getText().split("\n");
+		String arr2[] = driver.findElement(searchPage.productPrice()).getText().split("\n");
 		String price = arr2[0];
 		
 		Assert.assertEquals(price, cartTotal.trim());

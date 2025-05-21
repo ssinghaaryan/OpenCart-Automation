@@ -8,12 +8,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC007_EditAccountInfo">
+      <class name="testCases.TC008_ProductPage">
         <methods>
-          <include name="verify_editAccountInfo"/>
+          <include name="verify_productPage"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC007_EditAccountInfo -->
+      </class> <!-- testCases.TC008_ProductPage -->
     </classes>
   </test> <!-- MyTest(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

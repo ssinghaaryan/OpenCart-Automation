@@ -29,7 +29,7 @@ public class TC005_AddToWishlist extends BaseTest {
 		
 		SearchProduct searchProduct = new SearchProduct(driver);
 		searchProduct.searchProduct();
-		String productName = searchProduct.getRandomProduct(); // Was calling method before searchProduct() & was getting null.
+		String productName = searchProduct.getRandomProduct(); // Was calling method, before searchProduct() & was getting null.
 		
 		SearchPage searchPage = new SearchPage(driver);
 		List<WebElement> productList = driver.findElements(searchPage.productList());

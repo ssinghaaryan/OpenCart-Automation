@@ -13,7 +13,7 @@ import utilities.WaitHelper;
 
 public class TC007_EditAccountInfo extends BaseTest {
 	
-	@Test(groups={"Demo"})
+	@Test(groups={"Regression"})
 	public void verify_editAccountInfo() {
 		
 		logger.info("------------------------------");
