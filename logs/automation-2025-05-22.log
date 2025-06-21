@@ -1,0 +1,22 @@
+2025-05-22 00:00:24.229 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
+2025-05-22 00:19:39.334 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
+2025-05-22 00:22:31.706 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
+2025-05-22 00:22:31.748 [main] INFO  testCases.TC008_ProductPage - Correct Product Price displayed
+2025-05-22 00:22:31.800 [main] INFO  testCases.TC008_ProductPage - Add to Cart button displayed
+2025-05-22 00:22:31.829 [main] INFO  testCases.TC008_ProductPage - Wishlist button displayed
+2025-05-22 00:22:31.849 [main] INFO  testCases.TC008_ProductPage - Compare button displayed
+2025-05-22 00:25:22.795 [main] INFO  testCases.TC008_ProductPage - ------------------------------
+2025-05-22 00:25:22.808 [main] INFO  testCases.TC008_ProductPage - *** Started TC008_ProductPage ***
+2025-05-22 00:25:22.810 [main] INFO  testCases.TC008_ProductPage - Searching for Product
+2025-05-22 00:25:24.935 [main] INFO  testCases.TC008_ProductPage - Product Page opened
+2025-05-22 00:25:24.972 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
+2025-05-22 00:25:25.023 [main] INFO  testCases.TC008_ProductPage - Correct Product Price displayed
+2025-05-22 00:25:25.093 [main] INFO  testCases.TC008_ProductPage - Add to Cart button displayed
+2025-05-22 00:25:25.122 [main] INFO  testCases.TC008_ProductPage - Wishlist button displayed
+2025-05-22 00:25:25.149 [main] INFO  testCases.TC008_ProductPage - Compare button displayed
+2025-05-22 00:25:25.149 [main] INFO  testCases.TC008_ProductPage - *** Finished TC008_ProductPage ***
+2025-05-22 00:26:27.744 [main] INFO  testCases.TC008_ProductPage - ------------------------------
+2025-05-22 00:26:27.753 [main] INFO  testCases.TC008_ProductPage - *** Started TC008_ProductPage ***
+2025-05-22 00:26:27.755 [main] INFO  testCases.TC008_ProductPage - Searching for Product
+2025-05-22 00:26:29.495 [main] INFO  testCases.TC008_ProductPage - Product Page opened
+2025-05-22 00:26:29.527 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed

@@ -16,12 +16,13 @@ public class SearchProduct extends BaseTest {
 		this.driver = driver;
 	}
 
-	public void searchProduct() throws InterruptedException {
+	public void searchProduct() {
 		
 		WaitHelper waitHelper = new WaitHelper(driver);
 
 		HomePage homepage = new HomePage(driver);
-		product = randomProduct();
+//		product = randomProduct();
+		product = availableProduct();
 		homepage.searchInput().sendKeys(product);
 		homepage.searchBtn().click();
 		
@@ -30,8 +31,7 @@ public class SearchProduct extends BaseTest {
 	public String randomProduct() {
 
 		String productsList = "MacBook, iPhone, iMac, HTC, iPod, Palm, Samsung, Sony";
-		// HP LP3065 - Available
-		// Removed {Canon, Apple, HP} from the list currently, as they are navigating to product main page. Will add later, along with main page object.
+		// HP LP3065 - Only Available for checkout.
 		String products[] = productsList.split(",\\s");
 
 		int index = (int) Math.floor(Math.random() * products.length);
@@ -39,6 +39,10 @@ public class SearchProduct extends BaseTest {
 		product = products[index];
 		return product;
 
+	}
+	
+	public String availableProduct() {
+		return "HP";
 	}
 	
 	public String getRandomProduct() {

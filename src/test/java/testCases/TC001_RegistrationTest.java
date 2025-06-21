@@ -12,6 +12,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import utilities.Log;
+
 import pageObjects.HomePage;
 import pageObjects.RegistrationPage;
 
@@ -20,16 +22,16 @@ public class TC001_RegistrationTest extends BaseTest {
 	@Test(groups={"Regression"})
 	public void verify_registration() {
 		
-		logger.info("*** Started TC001_RegistrationTest ***");
+		Log.info("*** Started TC001_RegistrationTest ***");
 		HomePage homepage = new HomePage(driver);
 
-		logger.info("Clicking on My Account & Register buttons");
+		Log.info("Clicking on My Account & Register buttons");
 		homepage.myAccountBtn().click();
 		homepage.registerBtn().click();
 		
 		RegistrationPage regpage = new RegistrationPage(driver);
 		
-		logger.info("Entering user details");
+		Log.info("Entering user details");
 		regpage.getFirstName().sendKeys(random("ABCDEFGHIJKLM"));
 		regpage.getLastName().sendKeys(random("ABCDEFGHIJKLM"));
 		regpage.getEmail().sendKeys(random("ABCDEFGHIJKLMnopqrstuvwzyz123456789") + "@gmail.com");
@@ -44,14 +46,14 @@ public class TC001_RegistrationTest extends BaseTest {
 		
 		String expectedConfirmationTxt = regpage.getConfirmationTxt().getText();
 		String actualConfirmationTxt = "Your Account Has Been Created!";
-		logger.info("Account created successfully!");
+		Log.info("Account created successfully!");
 		
 		if(expectedConfirmationTxt.equals(actualConfirmationTxt)) {
 			Assert.assertTrue(true);
-			logger.info("TC Passed");
+			Log.info("TC Passed");
 		} else {
 			String errorMsg = "Expected - " + expectedConfirmationTxt + ", but got - " + actualConfirmationTxt;
-			logger.error("TC Failed |  " + errorMsg);
+			Log.error("TC Failed |  " + errorMsg);
 			Assert.assertTrue(false);
 		}
 	}

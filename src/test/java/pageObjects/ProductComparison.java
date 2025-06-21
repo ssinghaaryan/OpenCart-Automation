@@ -18,7 +18,7 @@ public class ProductComparison extends BasePage {
 		return By.xpath("//div[@id='content']/table/tbody[1]/tr[1]/td/a/strong");
 	}
 	
-	public void scrollToFooter() {
+	public void scrollToFooter() {  // public ProductComparison scrollToFooter()  ->  Method Chaining
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//footer"))).perform();
 	}

@@ -8,12 +8,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC008_ProductPage">
+      <class name="testCases.TC009_E2ECheckout">
         <methods>
-          <include name="verify_productPage"/>
           <include name="setup"/>
+          <include name="verify_e2eCheckout"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC008_ProductPage -->
+      </class> <!-- testCases.TC009_E2ECheckout -->
     </classes>
   </test> <!-- MyTest(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

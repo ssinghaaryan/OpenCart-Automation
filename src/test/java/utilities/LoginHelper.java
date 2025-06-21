@@ -1,6 +1,8 @@
 package utilities;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -12,10 +14,11 @@ public class LoginHelper extends BaseTest {
 		this.driver = driver;
 	}
 	
+	
+	
 	public void performLogin() {
 		
 		HomePage homepage = new HomePage(driver);
-		
 //		logger.info("Clicking on My Account & Login buttons");
 		homepage.myAccountBtn().click();
 		homepage.loginBtn().click();
@@ -27,5 +30,11 @@ public class LoginHelper extends BaseTest {
 		loginpage.loginBtn().click();
 		
 	}
+	
+//	public boolean isUserLoggedIn() {
+//		homepage.myAccountBtn().click();
+//		WebElement logoutBtn = driver.findElement(By.linkText("Logout"));
+//		return logoutBtn.isDisplayed();
+//	}
 
 }

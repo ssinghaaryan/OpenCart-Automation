@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.CheckoutPage;
 import testBase.BaseTest;
 
 public class WaitHelper extends BaseTest {
@@ -31,6 +32,19 @@ public class WaitHelper extends BaseTest {
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		element.clear();
 		element.sendKeys(text);
+	}
+	
+	public void waitForElementClickable(By locator, int timeout) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+//		element.click();
+	}
+	
+	public void expandAccordianStep(WebElement stepLink, By waitForElement) {
+		if(!"true".equalsIgnoreCase(stepLink.getAttribute("aria-expanded"))) {
+			stepLink.click();
+			waitForElementVisible(waitForElement, 5);
+		}
 	}
 	
 }

@@ -1,0 +1,30 @@
+2025-06-19 00:00:01.789 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-19 00:00:06.858 [main] INFO  utilities.Log - Navigating to URL
+2025-06-19 00:00:08.341 [main] INFO  utilities.Log - ------------------------------
+2025-06-19 00:00:08.356 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-19 00:00:09.840 [main] INFO  utilities.Log - User logged in.
+2025-06-19 00:00:10.822 [main] INFO  utilities.Log - Product found.
+2025-06-19 00:00:10.823 [main] INFO  utilities.Log - Product page opened.
+2025-06-19 00:00:11.080 [main] INFO  utilities.Log - Product added to cart.
+2025-06-19 00:00:11.431 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-19 00:00:13.655 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-19 00:00:13.677 [main] ERROR utilities.Log - Incorrect cart value
+2025-06-19 00:00:19.280 [main] INFO  utilities.Log - Closing Browser
+2025-06-19 00:01:39.487 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-19 00:01:42.611 [main] INFO  utilities.Log - Navigating to URL
+2025-06-19 00:01:43.847 [main] INFO  utilities.Log - ------------------------------
+2025-06-19 00:01:43.849 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-19 00:01:44.723 [main] INFO  utilities.Log - User logged in.
+2025-06-19 00:01:46.381 [main] INFO  utilities.Log - Product found.
+2025-06-19 00:01:46.382 [main] INFO  utilities.Log - Product page opened.
+2025-06-19 00:01:46.583 [main] INFO  utilities.Log - Product added to cart.
+2025-06-19 00:01:46.948 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-19 00:01:49.182 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-19 00:01:49.200 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-19 00:01:50.235 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-19 00:01:50.437 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-19 00:01:51.201 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-19 00:01:51.970 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-19 00:01:52.675 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-19 00:01:53.262 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-19 00:01:53.272 [main] INFO  utilities.Log - Closing Browser

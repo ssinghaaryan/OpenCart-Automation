@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Master Suite</span>
+              <span class="suite-name border-passed">Master Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods failed suite-Master_Suite"> (hide)</a> <!-- hide-methods failed suite-Master_Suite -->
-                      <a href="#" panel-name="suite-Master_Suite" class="show-methods failed suite-Master_Suite"> (show)</a> <!-- show-methods failed suite-Master_Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods passed suite-Master_Suite"> (hide)</a> <!-- hide-methods passed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods passed suite-Master_Suite"> (show)</a> <!-- show-methods passed suite-Master_Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Master_Suite">
+                    <div class="method-list-content passed suite-Master_Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC008_ProductPage" class="method navigator-link" hash-for-method="verify_productPage">verify_productPage</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC009_E2ECheckout" class="method navigator-link" hash-for-method="verify_e2eCheckout">verify_e2eCheckout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Master_Suite -->
+                    </div> <!-- method-list-content passed suite-Master_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,26 +118,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master_Suite" class="panel Master_Suite">
-          <div class="suite-Master_Suite-class-failed">
+          <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC008_ProductPage</span>
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC009_E2ECheckout</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_productPage">
-                  </a> <!-- verify_productPage -->
-                  <span class="method-name">verify_productPage</span>
-                  <div class="stack-trace">java.lang.AssertionError: Incorrect Product Price displayed expected [true] but found [false]
-	at testCases.TC008_ProductPage.verify_productPage(TC008_ProductPage.java:51)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
+                  <a name="verify_e2eCheckout">
+                  </a> <!-- verify_e2eCheckout -->
+                  <span class="method-name">verify_e2eCheckout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master_Suite-class-failed -->
+          </div> <!-- suite-Master_Suite-class-passed -->
         </div> <!-- panel Master_Suite -->
         <div panel-name="test-xml-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -168,6 +163,7 @@
       &lt;class name=&quot;testCases.TC006_ProductComparison&quot;/&gt;
       &lt;class name=&quot;testCases.TC007_EditAccountInfo&quot;/&gt;
       &lt;class name=&quot;testCases.TC008_ProductPage&quot;/&gt;
+      &lt;class name=&quot;testCases.TC009_E2ECheckout&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- MyTest --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
@@ -181,7 +177,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">MyTest (8 classes)</span>
+                <span class="test-name">MyTest (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,7 +191,7 @@
               <span class="test-group-name">Demo</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verify_productPage</span>
+                <span class="method-in-group-name">verify_e2eCheckout</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -217,14 +213,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_productPage')
-data.setCell(0, 2, 'testCases.TC008_ProductPage')
-data.setCell(0, 3, 1868);
+data.setCell(0, 1, 'verify_e2eCheckout')
+data.setCell(0, 2, 'testCases.TC009_E2ECheckout')
+data.setCell(0, 3, 11323);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -239,9 +235,37 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">7 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC001_RegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_registration</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC004_AddToCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_addToCart</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC006_ProductComparison</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_productComparison</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC007_EditAccountInfo</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_editAccountInfo</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.TC003_SearchTest</span>
               <div class="ignored-methods-div">
@@ -257,27 +281,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC004_AddToCartTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_addToCart</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC001_RegistrationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_registration</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC006_ProductComparison</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_productComparison</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.TC005_AddToWishlist</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">verify_addToWishlist</span>
@@ -285,9 +288,9 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC007_EditAccountInfo</span>
+              <span class="ignored-class-name">testCases.TC008_ProductPage</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verify_editAccountInfo</span>
+                <span class="ignored-method-name">verify_productPage</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -299,17 +302,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC008_ProductPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC009_E2ECheckout</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verify_productPage</span>
-                <span class="method-start">7552 ms</span>
+                <span class="method-name">verify_e2eCheckout</span>
+                <span class="method-start">7228 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18558 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

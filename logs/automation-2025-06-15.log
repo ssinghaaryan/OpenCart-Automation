@@ -1,0 +1,105 @@
+2025-06-15 17:08:09.193 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:08:10.184 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:08:13.511 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:08:13.512 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:08:13.718 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:08:14.161 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:08:16.072 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:08:43.823 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:08:45.307 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:08:47.161 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:08:47.162 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:08:47.374 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:08:47.814 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:08:50.270 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:15:48.986 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:15:49.707 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:15:51.358 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:15:51.359 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:15:51.569 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:15:51.877 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:15:54.106 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:16:10.700 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:16:11.950 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:16:13.460 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:16:13.460 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:16:13.664 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:16:14.009 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:16:16.217 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:17:07.969 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:17:08.631 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:17:16.456 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:17:16.457 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:17:16.698 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:17:17.464 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:17:19.737 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:22:21.844 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:22:23.343 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:22:26.186 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:22:26.187 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:22:26.384 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:22:27.255 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:22:29.519 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:48:35.433 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:48:36.044 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:48:37.803 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:48:37.804 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:48:37.971 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:48:38.267 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:48:40.403 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:49:04.552 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:49:05.832 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:49:06.862 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:49:06.863 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:49:07.083 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:49:07.438 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:49:09.680 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:50:05.959 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:50:08.071 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:50:09.348 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:50:09.348 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:50:09.561 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:50:10.010 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:50:12.266 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:51:08.033 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:51:08.767 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:51:10.388 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:51:10.389 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:51:10.599 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:51:10.895 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:51:13.132 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:51:28.048 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:51:29.429 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:51:30.905 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:51:30.906 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:51:31.157 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:51:31.478 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:51:33.864 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:54:13.156 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:54:13.831 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:54:15.439 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:54:15.439 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:54:15.627 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:54:15.937 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:54:18.168 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 17:54:27.887 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 17:54:29.267 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 17:54:30.248 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 17:54:30.249 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 17:54:30.458 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 17:54:30.776 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 17:54:33.003 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 18:32:39.917 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 18:32:40.740 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 18:32:42.357 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 18:32:42.358 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 18:32:42.569 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 18:32:42.970 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 18:32:45.291 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-15 18:32:57.783 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-15 18:32:58.462 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-15 18:33:00.253 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-15 18:33:00.254 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-15 18:33:00.457 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-15 18:33:00.767 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-15 18:33:03.006 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.

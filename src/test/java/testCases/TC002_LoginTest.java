@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import utilities.Log;
 import utilities.LoginHelper;
 import utilities.WaitHelper;
 
@@ -21,7 +22,7 @@ public class TC002_LoginTest extends BaseTest {
 		
 		WaitHelper waitHelper = new WaitHelper(driver);
 		
-		logger.info("*** Started TC002_LoginTest ***");
+		Log.info("*** Started TC002_LoginTest ***");
 		LoginHelper loginHelper = new LoginHelper(driver);
 		
 		LoginPage loginPage = new LoginPage(driver);
@@ -30,8 +31,8 @@ public class TC002_LoginTest extends BaseTest {
 		
 		String actualTxt = driver.findElement(loginPage.getConfirmationText()).getText();
 		Assert.assertEquals(actualTxt, "My Account");
-		logger.info("TC Passed/Failed");
-		logger.info("*** Finished TC002_LoginTest ***");
+		Log.info("TC Passed/Failed");
+		Log.info("*** Finished TC002_LoginTest ***");
 		
 	}
 

@@ -1,0 +1,28 @@
+2025-06-16 15:44:39.372 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-16 15:44:40.188 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-16 15:44:41.887 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-16 15:44:41.887 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-16 15:44:42.148 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-16 15:44:42.479 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-16 15:44:44.701 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-16 15:44:44.721 [main] ERROR testCases.TC009_E2ECheckout - Incorrect cart value
+2025-06-16 15:44:45.550 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 2: Billing Details
+2025-06-16 15:44:45.753 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 3: Delivery Details
+2025-06-16 15:44:46.483 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 4: Delivery Method
+2025-06-16 15:44:47.227 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 5: Payment Method
+2025-06-16 15:44:47.931 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 6: Confirm Order
+2025-06-16 15:44:48.518 [main] INFO  testCases.TC009_E2ECheckout - Final Price & Total price are matching.
+2025-06-16 15:45:22.409 [main] INFO  testCases.TC009_E2ECheckout - *** Started TC009_E2ECheckout ***
+2025-06-16 15:45:23.073 [main] INFO  testCases.TC009_E2ECheckout - User logged in.
+2025-06-16 15:45:24.708 [main] INFO  testCases.TC009_E2ECheckout - Product found.
+2025-06-16 15:45:24.709 [main] INFO  testCases.TC009_E2ECheckout - Product page opened.
+2025-06-16 15:45:24.907 [main] INFO  testCases.TC009_E2ECheckout - Product added to cart.
+2025-06-16 15:45:25.200 [main] INFO  testCases.TC009_E2ECheckout - Shopping cart opened.
+2025-06-16 15:45:27.451 [main] INFO  testCases.TC009_E2ECheckout - Shipping estimate applied.
+2025-06-16 15:45:27.471 [main] ERROR testCases.TC009_E2ECheckout - Incorrect cart value
+2025-06-16 15:45:28.276 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 2: Billing Details
+2025-06-16 15:45:28.481 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 3: Delivery Details
+2025-06-16 15:45:29.220 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 4: Delivery Method
+2025-06-16 15:45:29.970 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 5: Payment Method
+2025-06-16 15:45:30.652 [main] INFO  testCases.TC009_E2ECheckout - Executing Step 6: Confirm Order
+2025-06-16 15:45:31.236 [main] INFO  testCases.TC009_E2ECheckout - Final Price & Total price are matching.

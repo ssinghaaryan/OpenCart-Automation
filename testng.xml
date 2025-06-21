@@ -23,6 +23,7 @@
        <class name="testCases.TC007_EditAccountInfo" />
        <!-- <class name="testCases.Practise" /> -->
        <class name="testCases.TC008_ProductPage" />
+       <class name="testCases.TC009_E2ECheckout" />
        
     </classes>
     

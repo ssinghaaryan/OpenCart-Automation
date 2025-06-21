@@ -12,6 +12,7 @@ import pageObjects.SearchPage;
 import pageObjects.WishlistPage;
 import utilities.SearchProduct;
 import utilities.WaitHelper;
+import utilities.Log;
 import utilities.LoginHelper;
 
 public class TC005_AddToWishlist extends BaseTest {
@@ -21,8 +22,8 @@ public class TC005_AddToWishlist extends BaseTest {
 		
 		WaitHelper waitHelper = new WaitHelper(driver);
 		
-		logger.info("--------------------------");
-		logger.info("*** Started TC005_AddToWishlist ***");
+		Log.info("--------------------------");
+		Log.info("*** Started TC005_AddToWishlist ***");
 		
 		LoginHelper loginHelper = new LoginHelper(driver);
 		loginHelper.performLogin();
@@ -83,7 +84,7 @@ public class TC005_AddToWishlist extends BaseTest {
 			logger.error("Product still present in Wishlist");
 		}
 		
-		logger.info("*** Finished TC005_AddToWishlist ***");
+		Log.info("*** Finished TC005_AddToWishlist ***");
 		
 	}
 

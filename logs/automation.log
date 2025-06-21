@@ -1,22 +1,132 @@
-2025-05-22 00:00:24.229 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
-2025-05-22 00:19:39.334 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
-2025-05-22 00:22:31.706 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
-2025-05-22 00:22:31.748 [main] INFO  testCases.TC008_ProductPage - Correct Product Price displayed
-2025-05-22 00:22:31.800 [main] INFO  testCases.TC008_ProductPage - Add to Cart button displayed
-2025-05-22 00:22:31.829 [main] INFO  testCases.TC008_ProductPage - Wishlist button displayed
-2025-05-22 00:22:31.849 [main] INFO  testCases.TC008_ProductPage - Compare button displayed
-2025-05-22 00:25:22.795 [main] INFO  testCases.TC008_ProductPage - ------------------------------
-2025-05-22 00:25:22.808 [main] INFO  testCases.TC008_ProductPage - *** Started TC008_ProductPage ***
-2025-05-22 00:25:22.810 [main] INFO  testCases.TC008_ProductPage - Searching for Product
-2025-05-22 00:25:24.935 [main] INFO  testCases.TC008_ProductPage - Product Page opened
-2025-05-22 00:25:24.972 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
-2025-05-22 00:25:25.023 [main] INFO  testCases.TC008_ProductPage - Correct Product Price displayed
-2025-05-22 00:25:25.093 [main] INFO  testCases.TC008_ProductPage - Add to Cart button displayed
-2025-05-22 00:25:25.122 [main] INFO  testCases.TC008_ProductPage - Wishlist button displayed
-2025-05-22 00:25:25.149 [main] INFO  testCases.TC008_ProductPage - Compare button displayed
-2025-05-22 00:25:25.149 [main] INFO  testCases.TC008_ProductPage - *** Finished TC008_ProductPage ***
-2025-05-22 00:26:27.744 [main] INFO  testCases.TC008_ProductPage - ------------------------------
-2025-05-22 00:26:27.753 [main] INFO  testCases.TC008_ProductPage - *** Started TC008_ProductPage ***
-2025-05-22 00:26:27.755 [main] INFO  testCases.TC008_ProductPage - Searching for Product
-2025-05-22 00:26:29.495 [main] INFO  testCases.TC008_ProductPage - Product Page opened
-2025-05-22 00:26:29.527 [main] INFO  testCases.TC008_ProductPage - Correct Product Name displayed
+2025-06-21 00:54:45.384 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 00:54:50.717 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 00:54:52.510 [main] INFO  utilities.Log - ------------------------------
+2025-06-21 00:54:52.511 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-21 00:54:53.243 [main] INFO  utilities.Log - User logged in.
+2025-06-21 00:54:55.173 [main] INFO  utilities.Log - Product found.
+2025-06-21 00:54:55.174 [main] INFO  utilities.Log - Product page opened.
+2025-06-21 00:54:55.385 [main] INFO  utilities.Log - Product added to cart.
+2025-06-21 00:54:55.819 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-21 00:54:58.104 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-21 00:54:58.122 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-21 00:54:58.976 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-21 00:54:59.177 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-21 00:54:59.960 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-21 00:55:00.780 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-21 00:55:01.479 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-21 00:55:02.642 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-21 00:55:02.662 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:00:06.446 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:00:09.707 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:00:11.388 [main] INFO  utilities.Log - ------------------------------
+2025-06-21 01:00:11.388 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-21 01:00:13.065 [main] INFO  utilities.Log - User logged in.
+2025-06-21 01:00:14.115 [main] INFO  utilities.Log - Product found.
+2025-06-21 01:00:14.116 [main] INFO  utilities.Log - Product page opened.
+2025-06-21 01:00:14.320 [main] INFO  utilities.Log - Product added to cart.
+2025-06-21 01:00:14.688 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-21 01:00:17.006 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-21 01:00:17.024 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-21 01:00:17.837 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-21 01:00:18.037 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-21 01:00:19.333 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-21 01:00:20.131 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-21 01:00:20.850 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-21 01:00:21.441 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-21 01:00:21.449 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:02:40.491 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:02:43.686 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:02:45.113 [main] INFO  utilities.Log - ------------------------------
+2025-06-21 01:02:45.113 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-21 01:02:46.497 [main] INFO  utilities.Log - User logged in.
+2025-06-21 01:02:47.493 [main] INFO  utilities.Log - Product found.
+2025-06-21 01:02:47.494 [main] INFO  utilities.Log - Product page opened.
+2025-06-21 01:02:47.782 [main] INFO  utilities.Log - Product added to cart.
+2025-06-21 01:02:48.259 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-21 01:02:50.576 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-21 01:02:50.595 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-21 01:02:51.476 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-21 01:02:51.679 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-21 01:02:52.429 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-21 01:02:53.202 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-21 01:02:53.902 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-21 01:02:54.494 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-21 01:02:54.502 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:08:43.280 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:08:46.746 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:08:47.839 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:09:15.718 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:09:18.869 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:09:20.112 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:11:42.772 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:11:46.110 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:11:47.810 [main] INFO  utilities.Log - ------------------------------
+2025-06-21 01:11:47.810 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-21 01:11:48.531 [main] INFO  utilities.Log - User logged in.
+2025-06-21 01:11:50.223 [main] INFO  utilities.Log - Product found.
+2025-06-21 01:11:50.224 [main] INFO  utilities.Log - Product page opened.
+2025-06-21 01:11:50.508 [main] INFO  utilities.Log - Product added to cart.
+2025-06-21 01:11:50.826 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-21 01:11:53.160 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-21 01:11:53.180 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-21 01:11:54.009 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-21 01:11:54.224 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-21 01:11:54.999 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-21 01:11:55.736 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-21 01:11:56.474 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-21 01:11:57.063 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-21 01:11:57.069 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:21:20.163 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:21:24.023 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:21:25.513 [main] INFO  utilities.Log - ------------------------------
+2025-06-21 01:21:25.513 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-21 01:21:26.175 [main] INFO  utilities.Log - User logged in.
+2025-06-21 01:21:28.227 [main] INFO  utilities.Log - Product found.
+2025-06-21 01:21:28.228 [main] INFO  utilities.Log - Product page opened.
+2025-06-21 01:21:28.422 [main] INFO  utilities.Log - Product added to cart.
+2025-06-21 01:21:28.764 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-21 01:21:31.044 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-21 01:21:31.061 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-21 01:21:31.868 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-21 01:21:32.062 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-21 01:21:32.815 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-21 01:21:33.616 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-21 01:21:34.317 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-21 01:21:34.897 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-21 01:21:34.908 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:23:57.656 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:24:01.126 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:24:02.652 [main] INFO  utilities.Log - ------------------------------
+2025-06-21 01:24:02.653 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-21 01:24:03.330 [main] INFO  utilities.Log - User logged in.
+2025-06-21 01:24:05.066 [main] INFO  utilities.Log - Product found.
+2025-06-21 01:24:05.067 [main] INFO  utilities.Log - Product page opened.
+2025-06-21 01:24:05.358 [main] INFO  utilities.Log - Product added to cart.
+2025-06-21 01:24:05.693 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-21 01:24:08.027 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-21 01:24:08.045 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-21 01:24:08.841 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-21 01:24:09.037 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-21 01:24:09.779 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-21 01:24:10.557 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-21 01:24:11.307 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-21 01:24:11.891 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-21 01:24:11.897 [main] INFO  utilities.Log - Closing Browser
+2025-06-21 01:25:41.800 [main] INFO  utilities.Log - Initializing WebDriver
+2025-06-21 01:25:46.939 [main] INFO  utilities.Log - Navigating to URL
+2025-06-21 01:25:48.795 [main] INFO  utilities.Log - ------------------------------
+2025-06-21 01:25:48.795 [main] INFO  utilities.Log - *** Started TC009_E2ECheckout ***
+2025-06-21 01:25:49.888 [main] INFO  utilities.Log - User logged in.
+2025-06-21 01:25:51.753 [main] INFO  utilities.Log - Product found.
+2025-06-21 01:25:51.755 [main] INFO  utilities.Log - Product page opened.
+2025-06-21 01:25:52.126 [main] INFO  utilities.Log - Product added to cart.
+2025-06-21 01:25:52.483 [main] INFO  utilities.Log - Shopping cart opened.
+2025-06-21 01:25:55.162 [main] INFO  utilities.Log - Shipping estimate applied.
+2025-06-21 01:25:55.195 [main] INFO  utilities.Log - Total cart value updated & correct.
+2025-06-21 01:25:56.071 [main] INFO  utilities.Log - Executing Step 2: Billing Details
+2025-06-21 01:25:56.417 [main] INFO  utilities.Log - Executing Step 3: Delivery Details
+2025-06-21 01:25:57.295 [main] INFO  utilities.Log - Executing Step 4: Delivery Method
+2025-06-21 01:25:58.178 [main] INFO  utilities.Log - Executing Step 5: Payment Method
+2025-06-21 01:25:59.012 [main] INFO  utilities.Log - Executing Step 6: Confirm Order
+2025-06-21 01:25:59.635 [main] INFO  utilities.Log - Final & Total Price of product are matching
+2025-06-21 01:25:59.643 [main] INFO  utilities.Log - Closing Browser

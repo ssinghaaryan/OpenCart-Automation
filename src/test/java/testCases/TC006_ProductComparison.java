@@ -36,7 +36,7 @@ public class TC006_ProductComparison extends BaseTest {
 			searchPage.scrollToCart();
 			waitHelper.waitForElementVisible(searchPage.compareBtn(), 5);
 			
-			//Pick Product Name, (Price) & add it to Map.
+			//Pick Product Name, (Price) & add it to expectedProducts Map.
 			expectedProducts.put("Product" + i, driver.findElement(searchPage.productName()).getText());
 			//System.out.println(expectedProducts.get("Product" + i)); // Printing products found on search & in Map.
 			

@@ -12,10 +12,10 @@ import utilities.WaitHelper;
 
 public class TC008_ProductPage extends BaseTest {
 	
-	@Test(groups={"Demo"})
+	@Test(groups={"Regression"})
 	public void verify_productPage() throws InterruptedException {
 		
-		logger.info("------------------------------");
+		Log.info("------------------------------");
 		logger.info("*** Started TC008_ProductPage ***");
 		
 		WaitHelper waitHelper = new WaitHelper(driver);
